@@ -6,5 +6,6 @@ export const environment = {
   API_URL: 'https://v3yun4i0nc.execute-api.us-east-1.amazonaws.com/uat/',
   logoPath: 'assets/shared/logos/generic',
   logoExtension: 'svg',
+  logoStyleClass: 'width-card',
   copyrightText: 'The State of Nebraska.',
 };
