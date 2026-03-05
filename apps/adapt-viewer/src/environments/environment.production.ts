@@ -3,7 +3,7 @@ export const environment = {
   contentRoot: 'assets/text/generic',
   contentFileName: 'viewer-content-text.json',
   appDomain: 'ne-adapt-viewer.adaptdata.org',
-  API_URL: 'https://gfdry6t5g4.execute-api.us-east-1.amazonaws.com/dev/',
+  API_URL: 'https://5mv6nkh30j.execute-api.us-east-1.amazonaws.com/ne-prod/',
   logoPath: 'assets/shared/logos/generic',
   logoExtension: 'svg',
   logoStyleClass: 'width-card',
