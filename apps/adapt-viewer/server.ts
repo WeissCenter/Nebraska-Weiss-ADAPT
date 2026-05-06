@@ -4,6 +4,23 @@ import '@angular/localize/init';
 
 (global as any)['localStorage'] = {getItem: () => {}} ;
 
+if (typeof (global as any)['ProgressEvent'] === 'undefined') {
+  (global as any)['ProgressEvent'] = class ProgressEvent {
+    type: string;
+    loaded: number = 0;
+    total: number = 0;
+    lengthComputable: boolean = false;
+    constructor(type: string, init?: { loaded?: number; total?: number; lengthComputable?: boolean }) {
+      this.type = type;
+      if (init) {
+        this.loaded = init.loaded ?? 0;
+        this.total = init.total ?? 0;
+        this.lengthComputable = init.lengthComputable ?? false;
+      }
+    }
+  };
+}
+
 import { APP_BASE_HREF } from '@angular/common';
 import { CommonEngine } from '@angular/ssr/node';
 import * as express from 'express';
