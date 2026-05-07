@@ -11,11 +11,11 @@ export const environment = {
   clientId: '6j0g8eu28kg0qrsjouej93hn1m',
   contentRoot: 'assets/text',
   contentFileName: 'admin-content-text.json',
-  appDomain: 'ne-adapt-admin.adaptdata.org',  //'ose-adapt.ade.arkansas.gov',
+  appDomain: 'adapt-admin.education.ne.gov',  //'ose-adapt.ade.arkansas.gov',
   enforceLogin: true,
   envLabel: 'Prod',
   enforceRole: true,
-  callbackUrl: 'https://ne-adapt-admin.adaptdata.org/auth/redirect',  //'https://ose-adapt.ade.arkansas.gov/auth/redirect',
+  callbackUrl: 'https://adapt-admin.education.ne.gov/auth/redirect',  //'https://ose-adapt.ade.arkansas.gov/auth/redirect',
   Cognito: {
     userPoolId: 'us-east-1_fb7ILezdq',
     userPoolClientId: '6j0g8eu28kg0qrsjouej93hn1m',
