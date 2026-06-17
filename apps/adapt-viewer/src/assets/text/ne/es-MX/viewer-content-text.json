@@ -2,8 +2,8 @@
   "pages": {
     "home": {
       "brandingHeader": {
-        "heading": "Oficina de Educación Especial (OSE)",
-        "subHeading": "Nebraska IDEA Informes públicos"
+        "heading": "Informes públicos",
+        "subHeading": "Datos de la Parte C y la Parte B de IDEA de Nebraska"
       },
       "headingCard": {
         "heading": "Acerca de IDEA Reports",
@@ -50,6 +50,11 @@
                 "name": "El sitio web de la Oficina de Educación Especial",
                 "description": "La Oficina de Educación Especial del Departamento de Educación de Nebraska aloja una variedad de información sobre datos, monitoreo y orientación para apoyar a nuestros distritos y familias.",
                 "link": "http://education.ne.gov/sped"
+                },
+                {
+                "name": "La Red de Desarrollo Temprano de Nebraska (EDN)",
+                "description": "La Red de Desarrollo Temprano de Nebraska (EDN) brinda servicios de intervención temprana para familias con niños desde el nacimiento hasta los tres años con retrasos en el desarrollo y/o necesidades de atención médica, y conecta a las familias con los servicios necesarios.",
+                "link": "https://edn.ne.gov/cms/"
                 },
                 {
                 "name": "La Guía de Datos ADVISER de NDE",
