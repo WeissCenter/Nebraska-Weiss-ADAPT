@@ -24,10 +24,10 @@ export const environment = {
   pagesContent: 'assets/text/admin-content-text.json',
 
   // #### State logo custom settings and footer
-  logoStyleClass: 'width-card',
+  logoStyleClass: 'width-card-lg',
   logoPath: 'assets/shared/logos/states/ne',
   logoExtension: 'png',
   copyrightText: 'The State of Nebraska.',
-  organizationName: 'Office of Special Education (OSE)',
+  organizationName: 'Nebraska IDEA Part C and Part B Data',
   //################################
 };

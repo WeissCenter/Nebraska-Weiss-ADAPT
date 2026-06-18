@@ -2,8 +2,8 @@
   "pages": {
     "home": {
       "brandingHeader": {
-        "heading": "Office of Special Education (OSE)",
-        "subHeading": "Nebraska IDEA Public Reporting"
+        "heading": "Public Reporting",
+        "subHeading": "Nebraska IDEA Part C and Part B Data"
       },
       "headingCard": {
         "heading": "About IDEA Reports",
@@ -50,6 +50,11 @@
             "name": "The Office of Special Education Website",
             "description": "The Office of Special Education with the Nebraska Department of Education hosts a variety of information about data, monitoring, and guidance to support our districts and families.",
             "link": "http://education.ne.gov/sped"
+          },
+          {
+            "name": "The Nebraska Early Development Network",
+            "description": "The Nebraska Early Development Network (EDN) provides early intervention services for families with children birth to age three with developmental delays and/or health care needs and connects families to needed services.",
+            "link": "https://edn.ne.gov/cms/"
           },
           {
             "name": "The NDE ADVISER Data Guidance",
